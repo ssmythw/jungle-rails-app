@@ -118,3 +118,14 @@ form.button_to {
   font-weight: bold;
   border-radius: 5px;
 }
+
+.order-product {
+  width: 100%;
+  display: flex;
+  gap: 25px;
+}
+
+.order-product-group1{
+  display: flex;
+  flex-direction: column;
+}

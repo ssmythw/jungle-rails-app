@@ -2,6 +2,20 @@
 
   <header class="page-header">
     <h1>Order #<%= @order.id %></h1>
+    <h1>Total Cost: <%= (@order.total_cents.to_i/100.0).to_s%></h1>
+    <h1>Email: <%= @order.email%></h1>
+    <h1>Products Ordered</h1>
+    <% @products.each do |product| %>
+    <div class="order-product">
+    <div class="order-product-group1">
+        <div><%= product.name %></div>
+        <img width="150px" src="<%= product.image %>" alt="">
+    </div>
+        <div><%= product.description %></div>
+        <br>
+        <br>
+    </div>
+    <% end %>
   </header>
 
   <div class="order-summary jumbotron">
