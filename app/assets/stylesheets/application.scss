@@ -129,3 +129,16 @@ form.button_to {
   display: flex;
   flex-direction: column;
 }
+
+.about-link a {
+  color: rgba(255, 255, 255, 0.55);
+  text-decoration: none;
+}
+
+.about-link a:hover {
+  color: white;
+}
+
+.about-page {
+  text-align: center;
+}
