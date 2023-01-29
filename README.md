@@ -4,7 +4,17 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 
 ## Screenshots
 
+![ScreenShot](https://github.com/ssmythw/jungle-rails-app/blob/master/app/screenshots/Screen%20Shot%202023-01-29%20at%2012.26.20%20PM.png)
+![ScreenShot](https://github.com/ssmythw/jungle-rails-app/blob/master/app/screenshots/Screen%20Shot%202023-01-29%20at%2012.26.27%20PM.png)
+![ScreenShot](https://github.com/ssmythw/jungle-rails-app/blob/master/app/screenshots/Screen%20Shot%202023-01-29%20at%2012.27.59%20PM.png)
 
+## Dependencies
+
+- @rails
+- turbolinks
+- webpack
+- webpack-cli
+- webpack-dev-server
 
 ## Setup
 
